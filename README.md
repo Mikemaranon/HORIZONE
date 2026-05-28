@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Mikemaranon/HORIZONE">
+  <a href="https://mikemaranon.github.io/HORIZONE/">
     <img src="https://img.shields.io/badge/View%20Website-HORIZONE-00BFFF?style=for-the-badge&logo=github&logoColor=white" alt="View Website">
   </a>
 </p>
