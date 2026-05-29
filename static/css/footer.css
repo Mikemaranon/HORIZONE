@@ -1,0 +1,9 @@
+.site-footer {
+  width: min(1120px, calc(100% - 32px));
+  margin: 48px auto 0;
+  padding: 34px 0 54px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+}

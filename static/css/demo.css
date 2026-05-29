@@ -1,0 +1,120 @@
+.product-demo {
+  border-top: 1px solid var(--line);
+}
+
+.product-row {
+  display: grid;
+  grid-template-columns: .9fr 1.1fr;
+  align-items: center;
+  gap: 52px;
+}
+
+.product-copy p:not(.eyebrow) {
+  max-width: 610px;
+}
+
+.app-mockup {
+  min-height: 430px;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 34px;
+  background: rgba(2, 8, 18, .82);
+  backdrop-filter: blur(22px);
+  box-shadow: 0 40px 120px rgba(0, 0, 0, .5), 0 0 90px rgba(0, 136, 255, .18);
+}
+
+.mock-sidebar {
+  padding: 22px;
+  border-right: 1px solid var(--line);
+  background: rgba(0, 136, 255, .08);
+}
+
+.mock-sidebar span {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 6px;
+  border-radius: 50%;
+  background: var(--blue);
+}
+
+.mock-sidebar b {
+  display: block;
+  margin: 28px 0 14px;
+  color: var(--cyan);
+  font-size: 13px;
+}
+
+.mock-sidebar i {
+  height: 34px;
+  display: block;
+  margin: 10px 0;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, .06);
+}
+
+.mock-sidebar i.active {
+  background: linear-gradient(90deg, rgba(0, 213, 255, .26), rgba(0, 136, 255, .08));
+}
+
+.mock-chat {
+  padding: 24px;
+}
+
+.mock-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.mock-top span {
+  width: 38%;
+  height: 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .1);
+}
+
+.message {
+  width: 84%;
+  padding: 16px 18px;
+  margin: 14px 0;
+  border-radius: 18px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.message.user {
+  margin-left: auto;
+  background: rgba(0, 136, 255, .18);
+}
+
+.message.ai {
+  background: rgba(255, 255, 255, .07);
+}
+
+.tool-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 26px;
+}
+
+.tool-row span {
+  padding: 8px 10px;
+  color: var(--cyan);
+  font-size: 13px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(0, 213, 255, .08);
+}
+
+.composer {
+  margin-top: 36px;
+  padding: 17px 18px;
+  color: #66839d;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, .035);
+}

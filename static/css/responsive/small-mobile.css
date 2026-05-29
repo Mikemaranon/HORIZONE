@@ -1,0 +1,23 @@
+@media (max-width: 390px) {
+  .section,
+  .hero.section,
+  .site-footer {
+    width: calc(100% - 48px);
+  }
+
+  .hero {
+    padding-top: 46px;
+  }
+
+  .hero-logo {
+    width: min(84vw, 390px);
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-card {
+    min-height: auto;
+  }
+}

@@ -1,0 +1,30 @@
+@media (max-width: 900px) {
+  .product-row,
+  .workflow {
+    grid-template-columns: 1fr;
+  }
+
+  .download {
+    min-height: auto;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .download-grid {
+    width: min(520px, 100%);
+    grid-template-columns: 1fr;
+  }
+
+  .product-row {
+    gap: 30px;
+  }
+
+  .feature-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 24px;
+  }
+
+  .feature-card {
+    min-height: 220px;
+  }
+}

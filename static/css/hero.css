@@ -1,0 +1,71 @@
+.hero.section {
+  width: min(1180px, calc(100% - 28px));
+}
+
+.hero {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.hero-copy {
+  width: min(980px, 100%);
+  display: grid;
+  justify-items: center;
+}
+
+.hero-logo {
+  width: min(780px, 94vw);
+  margin: 10px auto 30px;
+  display: block;
+  filter: drop-shadow(0 0 38px rgba(0, 213, 255, .22));
+  animation: logoPulse 5.8s ease-in-out infinite;
+}
+
+.hero-text {
+  max-width: 760px;
+  color: #c9e8ff;
+  font-size: clamp(18px, 2vw, 23px);
+  text-shadow: 0 0 28px rgba(0, 213, 255, .16);
+}
+
+.hero-actions,
+.hero-proof {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.hero-actions {
+  width: min(520px, 100%);
+}
+
+.hero-actions .button {
+  flex: 1 1 190px;
+  text-align: center;
+}
+
+.hero-proof span {
+  padding: 8px 12px;
+  color: var(--muted);
+  font-size: 13px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .035);
+}
+
+@keyframes logoPulse {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-8px) scale(1.018);
+  }
+}

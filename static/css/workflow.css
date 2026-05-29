@@ -1,0 +1,78 @@
+.workflow {
+  display: grid;
+  grid-template-columns: .7fr 1fr;
+  align-items: center;
+  gap: 30px;
+}
+
+.steps {
+  display: grid;
+  gap: 16px;
+}
+
+.steps div {
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    align-items: center;
+    gap: 18px;
+    padding: 22px;
+}
+
+.steps strong {
+    width: 46px;
+    height: 46px;
+    display: grid;
+    place-items: center;
+    color: #001425;
+    border-radius: 16px;
+    background: linear-gradient(135deg, var(--cyan), var(--blue));
+}
+
+.steps span {
+    color: var(--text);
+    line-height: 1.55;
+}
+
+.commercial-band {
+    padding: 70px 30px;
+    text-align: center;
+    background: radial-gradient(
+        circle at center, 
+        rgba(0, 213, 255, .18), 
+        rgba(9, 18, 34, .72) 55%
+    );
+}
+
+.commercial-band p {
+  max-width: 660px;
+  margin: 0 auto;
+}
+
+.workflow-finale {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  align-items: center;
+  gap: 22px;
+  margin-top: -92px;
+  text-align: left;
+}
+
+.workflow-finale strong {
+  width: 58px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  color: #001425;
+  font-size: 24px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, var(--cyan), var(--blue));
+  box-shadow: 0 18px 55px rgba(0, 136, 255, .32);
+}
+
+.workflow-finale h2 {
+  margin-bottom: 12px;
+}
+
+.workflow-finale p {
+  margin: 0;
+}

@@ -1,0 +1,10 @@
+.feature-card,
+.download-card,
+.commercial-band,
+.steps div {
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  background: var(--panel);
+  backdrop-filter: blur(18px);
+  box-shadow: var(--shadow);
+}

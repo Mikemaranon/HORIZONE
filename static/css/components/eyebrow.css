@@ -1,0 +1,26 @@
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--cyan);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+
+.eyebrow span,
+.eyebrow::after {
+  content: "";
+  width: 34px;
+  height: 1px;
+  flex: 0 0 34px;
+}
+
+.eyebrow span {
+  background: linear-gradient(90deg, transparent, var(--cyan));
+}
+
+.eyebrow::after {
+  background: linear-gradient(90deg, var(--cyan), transparent);
+}

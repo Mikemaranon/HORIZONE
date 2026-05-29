@@ -1,0 +1,19 @@
+.button {
+  padding: 15px 22px;
+  border-radius: 999px;
+  font-weight: 850;
+  text-decoration: none;
+  transition: transform .2s ease, border .2s ease, background .2s ease;
+}
+
+.primary {
+  color: #001425;
+  background: linear-gradient(135deg, var(--cyan), var(--blue));
+  box-shadow: 0 20px 60px rgba(0, 136, 255, .34);
+}
+
+.ghost {
+  color: var(--text);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, .04);
+}
